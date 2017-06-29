@@ -133,19 +133,21 @@
             // dataGridView2
             // 
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(571, 421);
+            this.dataGridView2.Location = new System.Drawing.Point(46, 377);
             this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(10, 10);
+            this.dataGridView2.Size = new System.Drawing.Size(351, 97);
             this.dataGridView2.TabIndex = 16;
+            this.dataGridView2.Visible = false;
             // 
             // firststringtxt
             // 
-            this.firststringtxt.Location = new System.Drawing.Point(539, 421);
+            this.firststringtxt.Location = new System.Drawing.Point(688, 107);
             this.firststringtxt.Multiline = true;
             this.firststringtxt.Name = "firststringtxt";
-            this.firststringtxt.Size = new System.Drawing.Size(10, 10);
+            this.firststringtxt.Size = new System.Drawing.Size(216, 136);
             this.firststringtxt.TabIndex = 17;
             this.firststringtxt.Text = " ";
+            this.firststringtxt.Visible = false;
             // 
             // dataGridView3
             // 
@@ -156,10 +158,11 @@
             this.Column3,
             this.Column4,
             this.Column5});
-            this.dataGridView3.Location = new System.Drawing.Point(555, 421);
+            this.dataGridView3.Location = new System.Drawing.Point(665, 275);
             this.dataGridView3.Name = "dataGridView3";
-            this.dataGridView3.Size = new System.Drawing.Size(10, 10);
+            this.dataGridView3.Size = new System.Drawing.Size(389, 112);
             this.dataGridView3.TabIndex = 19;
+            this.dataGridView3.Visible = false;
             // 
             // Column1
             // 
@@ -190,7 +193,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(577, 392);
+            this.ClientSize = new System.Drawing.Size(588, 376);
             this.Controls.Add(this.firststringtxt);
             this.Controls.Add(this.dataGridView3);
             this.Controls.Add(this.dataGridView2);
@@ -203,6 +206,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "                                                                               Sa" +
     "lesReport";
